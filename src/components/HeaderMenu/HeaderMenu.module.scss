@@ -1,0 +1,13 @@
+.header_menu {
+  position: fixed;
+  background-color: #1d1e22;
+  text-align: center;
+  width: 100%;
+
+  &__links {
+    li {
+      margin: 2.75rem;
+      list-style: none;
+    }
+  }
+}
