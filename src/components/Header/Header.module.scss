@@ -26,7 +26,7 @@
       height: 3px;
       width: 25px;
       margin: 0.25rem;
-      background-color: white;
+      background-color: #dadada;
     }
   }
 
@@ -38,6 +38,7 @@
 
       li {
         margin: 1rem;
+        font-weight: 500;
         list-style: none;
         transition: all 0.5s ease;
         cursor: pointer;
