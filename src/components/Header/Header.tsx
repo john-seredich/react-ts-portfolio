@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import HeaderMenu from "../HeaderMenu/HeaderMenu";
 import { linkElements } from "../UI/LinkElement";
 import styles from "./Header.module.scss";
@@ -6,6 +7,11 @@ import styles from "./Header.module.scss";
 function Header() {
   const [menuToggle, setMenuToggle] = useState(false);
   const toggleMenuHandler = () => setMenuToggle((prevToggle) => !prevToggle);
+  const { width } = useWindowDimensions();
+
+  useEffect(() => {
+    if (width < 765) setMenuToggle(false);
+  }, [width, setMenuToggle]);
 
   return (
     <>
