@@ -1,0 +1,120 @@
+.hero {
+  padding: 2rem;
+  background-color: #1d1e22;
+
+  h2 {
+    margin-top: 0.75rem;
+  }
+
+  &__desc {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: #a2a8a9;
+  }
+
+  &__button_container {
+    margin-top: 2rem;
+
+    a {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 0.55rem;
+      margin: 0.5rem 0rem;
+      margin-right: 1rem;
+      padding: 0.75rem 2rem;
+      width: 270px;
+      max-width: 270px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.5s ease;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(5px);
+      }
+
+      &:first-child {
+        background-color: #7858fe;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+
+      &:last-child {
+        color: #7858fe;
+        border: 2px solid #7858fe;
+
+        &:hover {
+          background-color: #7858fe;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .hero {
+    padding: 7rem 2rem;
+    // max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    padding: 7rem 4rem;
+
+    &__intro {
+      font-size: 1.1rem;
+    }
+
+    &__desc {
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .hero {
+    &__img {
+      display: block;
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .hero {
+    &__img {
+      img {
+        width: 35rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  .hero {
+    padding: 7rem 20rem;
+    max-width: 2000px;
+
+    &__intro {
+      font-size: 1.15rem;
+    }
+
+    h2 {
+      font-size: 3.5rem;
+    }
+
+    &__desc {
+      font-size: 1rem;
+    }
+  }
+}
