@@ -9,8 +9,9 @@ function Header() {
   const toggleMenuHandler = () => setMenuToggle((prevToggle) => !prevToggle);
   const { width } = useWindowDimensions();
 
+  // Mobile Menu Disabled when exceeds 765px
   useEffect(() => {
-    if (width < 765) setMenuToggle(false);
+    if (width > 765) setMenuToggle(false);
   }, [width, setMenuToggle]);
 
   return (
