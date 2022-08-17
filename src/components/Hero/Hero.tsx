@@ -1,4 +1,5 @@
 import styles from "./Hero.module.scss";
+import svgImage from "../../assets/hero-main.svg";
 
 function Hero() {
   return (
@@ -16,6 +17,7 @@ function Hero() {
           <a href="/">Contact</a>
         </div>
       </div>
+      <img className={styles.hero__svg} src={svgImage} alt="" />
     </div>
   );
 }

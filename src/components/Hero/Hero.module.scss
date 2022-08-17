@@ -1,16 +1,27 @@
 .hero {
   padding: 2rem;
   background-color: #1d1e22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   h2 {
     margin-top: 0.75rem;
   }
 
+  &__svg {
+    display: none;
+    width: 35rem;
+    margin-left: 5rem;
+    animation: upAndDown 3s ease-in-out infinite;
+    will-change: transform;
+  }
+
   &__desc {
     font-size: 0.95rem;
     margin-top: 1rem;
-    line-height: 1.5;
-    color: #a2a8a9;
+    line-height: 1.6;
+    color: #bec3c5;
   }
 
   &__button_container {
@@ -84,18 +95,17 @@
 
 @media screen and (min-width: 1150px) {
   .hero {
-    &__img {
+    &__svg {
       display: block;
+      width: 25rem;
     }
   }
 }
 
 @media screen and (min-width: 1500px) {
   .hero {
-    &__img {
-      img {
-        width: 35rem;
-      }
+    &__svg {
+      width: 35rem;
     }
   }
 }
@@ -116,5 +126,32 @@
     &__desc {
       font-size: 1rem;
     }
+  }
+}
+
+// Testing
+
+// @keyframes upAndDown {
+//   0% {
+//     top: 0;
+//   }
+
+//   50% {
+//     transform: translateY(10px);
+//   }
+
+//   100% {
+//     transform: translateY(-10px);
+//     top: 0;
+//   }
+// }
+
+@keyframes upAndDown {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    transform: translateY(10px);
   }
 }
