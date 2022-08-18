@@ -1,5 +1,6 @@
 .projects__item {
   background-color: #1a8934;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   margin: 1rem 0rem;
   margin-top: 2rem;
   padding: 1.5rem;
@@ -22,6 +23,8 @@
     margin-top: 6rem;
 
     button {
+      display: flex;
+      align-items: center;
       font-family: inherit;
       font-size: 0.9rem;
       font-weight: 500;
@@ -32,6 +35,15 @@
       width: 165px;
       transition: all 0.4s ease;
       cursor: pointer;
+
+      &:hover {
+        background-color: #d2d2d2;
+      }
+
+      svg {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+      }
     }
   }
 }

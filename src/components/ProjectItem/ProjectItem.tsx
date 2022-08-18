@@ -1,3 +1,4 @@
+import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import styles from "./ProjectItem.module.scss";
 
 interface Props {
@@ -19,9 +20,11 @@ function ProjectItem(props: Props) {
       <div className={styles.projects__item__buttons}>
         <button>
           <span>See Code</span>
+          <FaCode />
         </button>
         <button>
           <span>Live Demo</span>
+          <FaExternalLinkAlt />
         </button>
       </div>
     </div>
