@@ -5,6 +5,7 @@ interface Props {
   name: string;
   description: string;
   color: string;
+  id: number;
 }
 
 function ProjectItem(props: Props) {
