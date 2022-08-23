@@ -4,6 +4,13 @@
   text-align: center;
 }
 
+@media screen and (min-width: 321px) {
+  .projects {
+    padding: 2rem 2rem;
+    // max-width: 400px;
+  }
+}
+
 @media screen and (min-width: 765px) {
   .projects {
     padding: 2rem 2rem;
