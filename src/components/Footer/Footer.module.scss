@@ -7,7 +7,7 @@
   p {
     margin-top: 1rem;
     font-size: 0.9rem;
-    color: #bec3c5;
+    // color: #bec3c5;
   }
 
   button {
@@ -39,10 +39,22 @@
     }
   }
 
+  &__alert {
+    background-color: white;
+    color: black;
+    border-left: 5px solid #7858fe;
+    font-weight: 600;
+    width: 220px;
+    margin: 0 auto;
+    padding: 0.75rem;
+    transform: all 0.5s ease;
+  }
+
   &__links {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
     a {
       margin: 0.65rem;
       padding: 0.5rem 0.6rem;
