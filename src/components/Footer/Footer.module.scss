@@ -1,0 +1,69 @@
+.footer {
+  padding: 2rem;
+  text-align: center;
+  color: #ddddde;
+  background-color: #1d1e22;
+
+  p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #bec3c5;
+  }
+
+  button {
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__copy {
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000;
+    background-color: #e9e9ed;
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: translateY(5px);
+      background-color: rgb(202, 202, 210);
+    }
+
+    svg {
+      font-size: 1.25rem;
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      margin: 0.65rem;
+      padding: 0.5rem 0.6rem;
+      color: #000000;
+      background-color: #e9e9ed;
+      border-radius: 4rem;
+      transition: all 0.5s ease;
+
+      &:hover {
+        background-color: #f05033;
+        color: white;
+      }
+
+      &:last-child {
+        &:hover {
+          background-color: #0072b1;
+        }
+      }
+    }
+    svg {
+      font-size: 1.25rem;
+    }
+  }
+}
