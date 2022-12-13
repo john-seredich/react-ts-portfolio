@@ -6,6 +6,8 @@ interface Props {
   description: string;
   color: string;
   id: number;
+  code: string;
+  demo: string;
 }
 
 function ProjectItem(props: Props) {
@@ -19,14 +21,14 @@ function ProjectItem(props: Props) {
       <h2>{props.name}</h2>
       <p>{props.description}</p>
       <div className={styles.projects__item__buttons}>
-        <button>
+        <a href={props.code} target="_blank" rel="noreferrer">
           <span>See Code</span>
           <FaCode />
-        </button>
-        <button>
+        </a>
+        <a href={props.demo} target="_blank" rel="noreferrer">
           <span>Live Demo</span>
           <FaExternalLinkAlt />
-        </button>
+        </a>
       </div>
     </div>
   );

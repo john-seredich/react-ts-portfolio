@@ -22,7 +22,7 @@
     align-items: center;
     margin-top: 6rem;
 
-    button {
+    a {
       display: flex;
       align-items: center;
       font-family: inherit;
@@ -32,8 +32,10 @@
       padding: 0.75rem 2rem;
       border-radius: 0.55rem;
       border: 0.5px solid #979797;
+      background-color: #e9e9ed;
       color: #171718;
       width: 165px;
+      text-decoration: none;
       transition: all 0.4s ease;
       cursor: pointer;
 
