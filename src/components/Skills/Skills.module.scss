@@ -2,7 +2,6 @@
   width: 100%;
   &__grid {
     display: grid;
-    // grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(121px, 1fr));
 
     &__item {
@@ -28,29 +27,3 @@
     }
   }
 }
-
-// @media screen and (min-width: 321px) {
-//   .skills {
-//     padding: 2rem 2rem;
-//     // max-width: 400px;
-//   }
-// }
-
-// @media screen and (min-width: 765px) {
-//   .skills {
-//     padding: 2rem 2rem;
-//     // max-width: 400px;
-//   }
-// }
-
-// @media screen and (min-width: 1025px) {
-//   .skills {
-//     padding: 2rem 4rem;
-//   }
-// }
-
-// @media screen and (min-width: 1750px) {
-//   .skills {
-//     padding: 2rem 20rem;
-//   }
-// }
