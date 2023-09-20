@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/react-ts-portfolio/static/css/main.1b3744ae.css",
-    "main.js": "/react-ts-portfolio/static/js/main.978c9800.js",
+    "main.css": "/react-ts-portfolio/static/css/main.9dff3518.css",
+    "main.js": "/react-ts-portfolio/static/js/main.8029068a.js",
+    "static/media/genshin.png": "/react-ts-portfolio/static/media/genshin.71ed58718f1b3d4e99a3.png",
+    "static/media/pokedex.png": "/react-ts-portfolio/static/media/pokedex.7b56caf5f09601eb1709.png",
+    "static/media/dashboard.png": "/react-ts-portfolio/static/media/dashboard.a01c11e638c68e05d0f1.png",
     "static/media/hero-main.svg": "/react-ts-portfolio/static/media/hero-main.908bc3b5ae91f07a581e26cdacd82161.svg",
     "index.html": "/react-ts-portfolio/index.html",
-    "main.1b3744ae.css.map": "/react-ts-portfolio/static/css/main.1b3744ae.css.map",
-    "main.978c9800.js.map": "/react-ts-portfolio/static/js/main.978c9800.js.map"
+    "main.9dff3518.css.map": "/react-ts-portfolio/static/css/main.9dff3518.css.map",
+    "main.8029068a.js.map": "/react-ts-portfolio/static/js/main.8029068a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b3744ae.css",
-    "static/js/main.978c9800.js"
+    "static/css/main.9dff3518.css",
+    "static/js/main.8029068a.js"
   ]
 }
