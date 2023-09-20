@@ -1,5 +1,6 @@
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import styles from "./ProjectItem.module.scss";
+import pokedexImg from "../../assets/images/pokedex.png";
 
 interface Props {
   name: string;
@@ -15,7 +16,7 @@ function ProjectItem(props: Props) {
     <div
       className={styles.projects__item}
       style={{
-        backgroundColor: props.color,
+        backgroundImage: props.color,
       }}
     >
       <h2>{props.name}</h2>
