@@ -9,22 +9,22 @@ export const projects = [
     demo: "https://john-seredich.github.io/pokedex/",
   },
   {
-    name: "FLIX Movie Theater Website",
+    name: "Tremor Dashboard",
     description:
-      "This is currently a placeholder project, the links do not work!",
+      "Admin Dashboard built using React, Typescript, and Tremor UI Components.",
     color: "#1a8934",
     id: 2,
-    code: "/",
-    demo: "/",
+    code: "https://github.com/john-seredich/tremor-dashboard",
+    demo: "https://john-seredich.github.io/tremor-dashboard/",
   },
 
   {
-    name: "Harbor Home Services",
+    name: "Genshin Hunter",
     description:
-      "This is currently a placeholder project, the links do not work!",
+      "A Genshin Impact Database built using ReactJS, React Query, React Router, and TypeScript.",
     color: "rgb(0, 128, 128)",
     id: 3,
-    code: "/",
-    demo: "/",
+    code: "https://github.com/john-seredich/genshinhunter",
+    demo: "https://john-seredich.github.io/genshinhunter/#/",
   },
 ];
