@@ -3,7 +3,7 @@ import Skills from "../Skills/Skills";
 
 function Info() {
   return (
-    <div className={styles.info}>
+    <div className={styles.info} id="About">
       <section className={styles.info__container}>
         <h2>About</h2>
         <p className={styles.info__description}>

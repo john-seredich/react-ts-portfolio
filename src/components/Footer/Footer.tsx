@@ -24,7 +24,7 @@ function Footer() {
   }, [alert]);
 
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="Contact">
       <h2>Contact</h2>
       <p>I am open to opprtunities! Please feel free to reach out to me.</p>
       <button className={styles.footer__copy} onClick={copyToClipboardHandler}>
