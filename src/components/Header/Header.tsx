@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import HeaderMenu from "../HeaderMenu/HeaderMenu";
-import { linkElements } from "../UI/LinkElement";
 import styles from "./Header.module.scss";
 import Links from "../Links/Links";
 
