@@ -33,14 +33,22 @@ function Footer() {
       </button>
       {alert && <p className={styles.footer__alert}>Copied email!</p>}
       <div className={styles.footer__links}>
-        <a href="/">
+        <a
+          href="https://github.com/john-seredich"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
-        <a href="/">
+        <a
+          href="www.linkedin.com/in/john-seredich"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedinIn />
         </a>
       </div>
-      <p>&copy; 2022 John Seredich</p>
+      <p>&copy; 2023 John Seredich</p>
     </footer>
   );
 }
