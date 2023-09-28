@@ -1,0 +1,16 @@
+.link {
+  display: block;
+  text-decoration: none;
+  color: #dadada;
+  // margin: 2.75rem;
+  padding: 2.75rem;
+  font-weight: 500;
+  list-style: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    transform: translateY(5px);
+  }
+}
