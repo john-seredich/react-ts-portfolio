@@ -2,7 +2,6 @@
   display: block;
   text-decoration: none;
   color: #dadada;
-  // margin: 2.75rem;
   padding: 2.75rem;
   font-weight: 500;
   list-style: none;
@@ -12,5 +11,11 @@
   &:hover {
     color: white;
     transform: translateY(5px);
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .link {
+    padding: 0rem;
   }
 }
