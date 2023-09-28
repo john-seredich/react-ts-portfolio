@@ -30,7 +30,9 @@ function Header() {
           <span></span>
         </button>
       </header>
-      {menuToggle && <HeaderMenu />}
+      {menuToggle && (
+        <HeaderMenu menuToggle={menuToggle} setMenuToggle={setMenuToggle} />
+      )}
     </>
   );
 }
