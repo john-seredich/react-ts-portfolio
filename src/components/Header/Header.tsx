@@ -3,6 +3,7 @@ import useWindowDimensions from "../../hooks/useWindowDimensions";
 import HeaderMenu from "../HeaderMenu/HeaderMenu";
 import { linkElements } from "../UI/LinkElement";
 import styles from "./Header.module.scss";
+import Links from "../Links/Links";
 
 function Header() {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -19,7 +20,9 @@ function Header() {
       <header className={styles.header}>
         <h1>John Seredich</h1>
         <nav className={styles.header__desktop_nav}>
-          <ul>{linkElements}</ul>
+          <ul>
+            <Links />
+          </ul>
         </nav>
         <button
           className={styles.header__mobile_btn}
