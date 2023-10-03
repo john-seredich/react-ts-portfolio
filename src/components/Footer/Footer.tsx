@@ -41,7 +41,7 @@ function Footer() {
           <FaGithub />
         </a>
         <a
-          href="www.linkedin.com/in/john-seredich"
+          href="https://linkedin.com/in/john-seredich"
           target="_blank"
           rel="noreferrer"
         >
