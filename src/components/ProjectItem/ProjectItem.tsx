@@ -1,4 +1,4 @@
-import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
+import { FaCode, FaExternalLinkAlt, FaReact } from "react-icons/fa";
 import styles from "./ProjectItem.module.scss";
 import pokedexImg from "../../assets/images/pokedex.png";
 
@@ -21,6 +21,23 @@ function ProjectItem(props: Props) {
     >
       <h2>{props.name}</h2>
       <p>{props.description}</p>
+      <div className={styles.projects__tech}>
+        <span className={styles.projects__tech_item}>
+          <FaReact />
+        </span>
+        <span className={styles.projects__tech_item}>
+          <FaReact />
+        </span>
+        <span className={styles.projects__tech_item}>
+          <FaReact />
+        </span>
+        <span className={styles.projects__tech_item}>
+          <FaReact />
+        </span>
+        <span className={styles.projects__tech_item}>
+          <FaReact />
+        </span>
+      </div>
       <div className={styles.projects__item__buttons}>
         <a href={props.code} target="_blank" rel="noreferrer">
           <span>See Code</span>

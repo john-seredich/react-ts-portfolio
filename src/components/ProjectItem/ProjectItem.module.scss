@@ -52,3 +52,23 @@
     }
   }
 }
+
+.projects__tech {
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  // justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  &_item {
+    height: 38px;
+    width: 38px;
+    font-size: 1.75rem;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #171718;
+  }
+}
