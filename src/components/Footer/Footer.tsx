@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function Footer() {
   const [alert, setAlert] = useState(false);
-  const email = "jsseredich@gmail.com";
+  const email = "seredichjohn@gmail.com";
 
   const copyToClipboardHandler = () => {
     navigator.clipboard.writeText(email);
@@ -41,7 +41,7 @@ function Footer() {
           <FaGithub />
         </a>
         <a
-          href="www.linkedin.com/in/john-seredich"
+          href="https://linkedin.com/in/john-seredich"
           target="_blank"
           rel="noreferrer"
         >
