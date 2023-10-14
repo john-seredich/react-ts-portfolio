@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function Footer() {
   const [alert, setAlert] = useState(false);
-  const email = "jsseredich@gmail.com";
+  const email = "seredichjohn@gmail.com";
 
   const copyToClipboardHandler = () => {
     navigator.clipboard.writeText(email);

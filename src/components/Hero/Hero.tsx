@@ -10,7 +10,7 @@ function Hero() {
         <p className={styles.hero__intro}>Hello 👋, I am</p>
         <h2>John Seredich</h2>
         <p className={styles.hero__desc}>
-          I'm a Front-end developer with experience in planning, developing,
+          I'm a Web Developer with experience in planning, developing,
           responsive, and accessible websites. Passionate about developing and
           testing web applications.
         </p>

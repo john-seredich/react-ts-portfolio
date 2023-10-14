@@ -1,6 +1,6 @@
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import styles from "./ProjectItem.module.scss";
-import pokedexImg from "../../assets/images/pokedex.png";
+import ProjectsTech from "../ProjectTechs/ProjectsTech";
 
 interface Props {
   name: string;
@@ -11,22 +11,26 @@ interface Props {
   demo: string;
 }
 
-function ProjectItem(props: Props) {
+function ProjectItem({ name, description, color, id, code, demo }: Props) {
   return (
     <div
       className={styles.projects__item}
       style={{
-        backgroundImage: props.color,
+        backgroundImage: color,
       }}
     >
-      <h2>{props.name}</h2>
-      <p>{props.description}</p>
+      <h2>{name}</h2>
+      <p>{description}</p>
+
+      <ProjectsTech />
+
       <div className={styles.projects__item__buttons}>
-        <a href={props.code} target="_blank" rel="noreferrer">
+        <a href={code} target="_blank" rel="noreferrer">
           <span>See Code</span>
           <FaCode />
         </a>
-        <a href={props.demo} target="_blank" rel="noreferrer">
+
+        <a href={demo} target="_blank" rel="noreferrer">
           <span>Live Demo</span>
           <FaExternalLinkAlt />
         </a>
