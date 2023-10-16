@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
 
+/* React Tooltip Styles */
+:root {
+  --rt-color-white: #fff;
+  --rt-color-dark: #1d1e22;
+  --rt-color-success: #8dc572;
+  --rt-color-error: #be6464;
+  --rt-color-warning: #f0ad4e;
+  --rt-color-info: #337ab7;
+  --rt-opacity: 0.9;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
