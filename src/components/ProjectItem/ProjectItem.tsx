@@ -1,3 +1,4 @@
+import { Tooltip } from "react-tooltip";
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import styles from "./ProjectItem.module.scss";
 import ProjectsTech from "../ProjectTechs/ProjectsTech";

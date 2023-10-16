@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from "react-tooltip";
 import { FaReact } from "react-icons/fa";
 import { SiTypescript, SiReactrouter, SiSass } from "react-icons/si";
 import styles from "./ProjectsTech.module.scss";
@@ -11,19 +12,19 @@ const technolgoy = [
     backgroundColor: "#ffffff",
   },
   {
-    name: "React",
+    name: "Typescript",
     icon: <SiTypescript />,
     color: "#2f74c0",
     backgroundColor: "#ffffff",
   },
   {
-    name: "React",
+    name: "React Router",
     icon: <SiReactrouter />,
     color: "#ed404e",
     backgroundColor: "#ffffff",
   },
   {
-    name: "React",
+    name: "Sass",
     icon: <SiSass />,
     color: "#7b3d5d",
     backgroundColor: "#ffffff",
@@ -40,7 +41,15 @@ function ProjectsTech() {
             style={{ backgroundColor }}
             className={styles.projects__tech_item}
           >
-            <span style={{ color }}>{icon}</span>
+            {/*  */}
+            <a
+              data-tooltip-id="my-tooltip"
+              data-tooltip-content={name}
+              data-tooltip-place="bottom"
+            >
+              <span style={{ color }}>{icon}</span>
+            </a>
+            <Tooltip id="my-tooltip" style={{ fontSize: "60%" }} />
           </span>
         );
       })}
