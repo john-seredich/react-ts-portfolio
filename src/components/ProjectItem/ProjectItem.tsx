@@ -10,9 +10,23 @@ interface Props {
   id: number;
   code: string;
   demo: string;
+  technology: {
+    name: string;
+    icon: JSX.Element;
+    color: string;
+    backgroundColor: string;
+  }[];
 }
 
-function ProjectItem({ name, description, color, id, code, demo }: Props) {
+function ProjectItem({
+  name,
+  description,
+  color,
+  id,
+  code,
+  demo,
+  technology,
+}: Props) {
   return (
     <div
       className={styles.projects__item}
@@ -23,7 +37,7 @@ function ProjectItem({ name, description, color, id, code, demo }: Props) {
       <h2>{name}</h2>
       <p>{description}</p>
 
-      <ProjectsTech />
+      <ProjectsTech technology={technology} />
 
       <div className={styles.projects__item__buttons}>
         <a href={code} target="_blank" rel="noreferrer">
