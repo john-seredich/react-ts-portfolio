@@ -7,9 +7,9 @@ const resumeLink =
 function Links() {
   const link = links.map((link: string) => {
     return (
-      <li className={styles.list_item}>
+      <li key={link} className={styles.list_item}>
         {link !== "Resumé" ? (
-          <a className={styles.link} key={link} href={`#${link}`}>
+          <a className={styles.link} href={`#${link}`}>
             {link}
           </a>
         ) : (
