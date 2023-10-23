@@ -17,7 +17,9 @@ function Header() {
   return (
     <>
       <header className={styles.header}>
-        <h1>John Seredich</h1>
+        <h1>
+          <a href="#About">John Seredich</a>
+        </h1>
         <nav className={styles.header__desktop_nav}>
           <ul>
             <Links />

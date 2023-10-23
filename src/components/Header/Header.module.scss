@@ -8,7 +8,13 @@
   h1 {
     font-size: 1.25rem;
     transition: all 0.5s ease;
+
     cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: #dadada;
+    }
 
     &:hover {
       transform: translateY(5px);
