@@ -1,11 +1,11 @@
 import styles from "./Skills.module.scss";
 import {
   SiTypescript,
-  SiNextdotjs,
+  SiMysql,
   SiReact,
   SiSass,
   SiGit,
-  SiRedux,
+  SiNodedotjs,
 } from "react-icons/si";
 
 const skillItems = [
@@ -16,16 +16,22 @@ const skillItems = [
     id: 1,
   },
   {
-    name: "NextJS",
-    icon: <SiNextdotjs />,
-    color: "black",
-    id: 2,
-  },
-  {
     name: "Typescript",
     icon: <SiTypescript />,
     color: "#007acc",
     id: 3,
+  },
+  {
+    name: "NodeJS",
+    icon: <SiNodedotjs />,
+    color: "#5e9659",
+    id: 2,
+  },
+  {
+    name: "MySQL",
+    icon: <SiMysql />,
+    color: "#7248b6",
+    id: 6,
   },
   {
     name: "Sass",
@@ -33,17 +39,12 @@ const skillItems = [
     color: "#c76395",
     id: 4,
   },
+
   {
     name: "Git",
     icon: <SiGit />,
     color: "#f1502f",
     id: 5,
-  },
-  {
-    name: "Redux",
-    icon: <SiRedux />,
-    color: "#7248b6",
-    id: 6,
   },
 ];
 

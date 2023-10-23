@@ -9,7 +9,7 @@ function Info() {
         <p className={styles.info__description}>
           My name is John Seredich a Web Developer. Like many other people, I
           enjoy increasing my knowledge of Web Development and building new and
-          challenging projects using React,Redux, Node.js and many Front end
+          challenging projects using React,TypeScript,Node.js and many front end
           technologies.
         </p>
       </section>
